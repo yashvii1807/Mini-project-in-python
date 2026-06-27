@@ -16,3 +16,8 @@ password = ""
 for i in range(pass_len):
     password += random.choice(charValues)
 print("Your random password is: ", password)    
+
+
+#list comprehension [function for i in range(n)]
+res = [random.choice(charValues) for i in range(pass_len)]
+print(res)
