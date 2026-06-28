@@ -19,5 +19,6 @@ print("Your random password is: ", password)
 
 
 #list comprehension [function for i in range(n)]
-res = [random.choice(charValues) for i in range(pass_len)]
-print(res)
+# res = [random.choice(charValues) for i in range(pass_len)]
+# print(res)
+
